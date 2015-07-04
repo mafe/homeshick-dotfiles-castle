@@ -9,4 +9,5 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 alias tmesg='dmesg|perl -ne "BEGIN{\$a= time()- qx!cat /proc/uptime!};s/\[\s*(\d+)\.\d+\]/localtime(\$1 + \$a)/e; print \$_;"'
 
+source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 
