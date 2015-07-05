@@ -10,4 +10,4 @@ alias tmesg='dmesg|perl -ne "BEGIN{\$a= time()- qx!cat /proc/uptime!};s/\[\s*(\d
 alias tmux='tmux -2'
 alias ls='ls -lisah --color=auto'
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
-
+EDITOR='vim'
