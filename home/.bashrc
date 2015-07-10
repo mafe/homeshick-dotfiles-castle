@@ -11,3 +11,5 @@ alias tmux='tmux -2'
 alias ls='ls -lisah --color=auto'
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 EDITOR='vim'
+
+source "$HOME/.homesick/repos/homeshick/completions/homeshick-completion.bash"
